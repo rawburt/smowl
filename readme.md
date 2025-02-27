@@ -74,4 +74,4 @@ while i < a.len() {
 }
 ```
 
-More example code can be found in [examples](./examples/) and in [tes/valid](./test/valid/).
+More example code can be found in [./examples](./examples/) and in [./test/valid](./test/valid/).
