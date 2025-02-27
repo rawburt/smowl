@@ -1,0 +1,15 @@
+def add2(i) {
+  return i + 2
+}
+
+print("2 + 2 = " + str(add2(2)))
+
+def factorial(n) {
+  if n <= 1 {
+    return 1
+  } else {
+    return n * factorial(n - 1)
+  }
+}
+
+print("factorial 18 = " + str(factorial(18)))

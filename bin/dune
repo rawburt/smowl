@@ -1,0 +1,4 @@
+(executable
+ (public_name smowl)
+ (name main)
+ (libraries smowl))

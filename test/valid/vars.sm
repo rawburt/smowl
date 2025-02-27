@@ -1,0 +1,8 @@
+var i = 3001
+print(i)
+var b = false
+print(b)
+var s = "ok"
+print(s)
+s = "still ok"
+print(s)

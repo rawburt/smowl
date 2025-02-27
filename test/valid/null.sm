@@ -1,0 +1,13 @@
+var i
+
+print(i)
+
+if j = i { print(j) }
+else { print("else") }
+
+i = "ok"
+
+if j = i { print(j) }
+else { print("error") }
+
+print(i)

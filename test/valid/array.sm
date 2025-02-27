@@ -1,0 +1,44 @@
+var list1 = [1, 2, 3]
+var list2 = [true, false]
+var list3 = ["hello", "world"]
+var list4 = [1, false, "ok"]
+
+if list1[0] == list4[0] {
+  print("access arrays")
+}
+
+var nested_list = [[[0,1,2],[3,4,5]], [[6,7,8],[9,10,11]]]
+var ii = 0
+while ii < 2 {
+  var jj = 0
+  while jj < 3 {
+    print(nested_list[ii][0][jj])
+    jj += 1
+  }
+  ii += 1
+}
+
+list3[1] = "new world"
+print(list3[0] + " " + list3[1])
+
+nested_list[1][1][1] = 11
+print(nested_list[1][1][1])
+print(nested_list[1][1][2])
+
+var t = [1,2,3]
+print(t.len())
+
+t.push(5)
+print(t.len())
+print(t[3])
+print(t.pop())
+print(t.len())
+
+var a1 = [1,2,3,4]
+var a2 = [5,6,7,8]
+a1.append(a2)
+var i = 0
+while i < a1.len() {
+  print(a1[i])
+  i += 1
+}

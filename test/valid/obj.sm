@@ -1,0 +1,45 @@
+class Position(x, y) {
+  def move(xx, yy) {
+    x += xx
+    y += yy
+  }
+}
+
+var pos = Position(10, 20)
+
+print(pos.x)
+print(pos.y)
+print(pos == Position(10, 20))
+print(pos == pos)
+
+pos.move(5, -5)
+print(pos.x == pos.y)
+print(pos.x)
+print(pos.y)
+
+class I() {
+  var j = 10
+
+  def mutate() {
+    j += 5
+  }
+}
+
+var i1 = I()
+var i2 = I()
+i1.mutate()
+print(i1.j)
+print(i2.j)
+var i3 = I()
+print(i3.j)
+
+def outside() {}
+
+class T() {
+  def inside() {
+    outside()
+  }
+}
+
+var t = T()
+t.inside()

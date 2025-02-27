@@ -1,0 +1,10 @@
+(include_subdirs unqualified)
+
+(library
+ (name smowl)
+ (modules syntax grammar lexer error loc interpreter))
+
+(menhir
+ (modules grammar))
+
+(ocamllex lexer)

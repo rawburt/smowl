@@ -1,0 +1,2 @@
+var s1 = "hello there everyone!"
+print(s1.len())

@@ -1,0 +1,2 @@
+(cram
+ (deps %{bin:smowl} (source_tree .)))
