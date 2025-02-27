@@ -1,10 +1,6 @@
 # Smowl
 
-A small object-oriented programming language to explore programming language design and implementation.
-
-## Goal
-
-Design an object-oriented programming language to make a binary search tree ADT.
+A small object-oriented programming language to explore programming language design and implementation. Nothing here is novel. The goal was to explore making a object-oriented runtime in OCaml.
 
 ## Example
 
@@ -77,3 +73,5 @@ while i < a.len() {
   i += 1
 }
 ```
+
+More example code can be found in [examples](./examples/) and in [tes/valid](./test/valid/).
